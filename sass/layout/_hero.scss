@@ -1,0 +1,186 @@
+.hero {
+    @include breakpoint(tablet) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hero-tittle {
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 26px;
+    @include breakpoint(tablet) {
+        width: 400px;
+    }
+    @include breakpoint(desktop) {
+        width: 500px;
+        font-size: 56px;
+    }
+    
+}
+
+.hero-description {
+    color: $p-color;
+    padding-bottom: 24px;
+    @include breakpoint(tablet) {
+        width: 400px;
+    }
+    @include breakpoint(desktop) {
+        padding-bottom: 40px;
+    }
+}
+
+.hero .btn2 {
+    display: inline-block;
+    background: $gradient-red;
+    padding: 18px 40px;
+    color: $white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    &:active {
+        background: linear-gradient(rgb(251, 154, 127) 0%, rgb(239, 130, 199) 100%);
+    }
+    @include breakpoint(tablet) {
+        width: 175px;
+        margin-bottom: 200px;
+    }
+    @include breakpoint(tablet) {
+        margin-bottom: 325px;
+    }
+}
+
+.hero-img {
+    @include breakpoint(tablet) {
+        display: none;
+    }
+}
+
+.courses {
+    @include breakpoint(tablet) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
+    @include breakpoint(desktop) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        
+    }
+}
+
+.courses div {
+    @include breakpoint(desktop) {
+        height: 260px;
+    }
+}
+.course {
+    background-color: $white;
+}
+
+.courses-tittle {
+    background: $gradient-red;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    @include breakpoint(tablet) {
+        background: $gradient-red;
+        height: 215px;
+        padding-top: 20px;
+    }
+    @include breakpoint(desktop) {
+        background: $gradient-red;
+        background-repeat: no-repeat;
+    }
+}
+
+.courses h2 {
+    font-size: 24px;
+    padding: 34px 38px;
+    color: $white;
+    margin-bottom: 40px;
+}
+
+.course {
+    padding: 0px 0px 28px 40px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    @include breakpoint(desktop) {
+        padding-right: 30px;
+    }
+
+    img {
+        position: absolute;
+    }
+    h3 {
+        font-weight: 800;
+        padding-top: 56px;
+        padding-bottom: 20px;
+        
+    }
+    p {
+        color: $p-color;
+        padding-bottom: 25px;
+    }
+    a {
+        text-decoration: none;
+        color: $magenta;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+.courses div:nth-child(2) > img {
+    top: 920px;
+    @include breakpoint(tablet) {
+        top: 740px;
+    }
+    @include breakpoint(desktop) {
+        top: 920px;
+    }
+}
+
+.courses div:nth-child(3) > img {
+    top: 1205px;
+    @include breakpoint(tablet) {
+        top: 1025px;
+    }
+    @include breakpoint(desktop) {
+        top: 920px;
+    }
+}
+
+.courses div:nth-child(4) > img {
+    top: 1475px;
+    @include breakpoint(tablet) {
+        top: 1025px;
+    }
+    @include breakpoint(desktop) {
+        top: 1230px;
+    }
+}
+
+.courses div:nth-child(5) > img {
+    top: 1760px;
+    @include breakpoint(tablet) {
+        top: 1310px;
+    }
+    @include breakpoint(desktop) {
+        top: 1230px;
+    }
+}
+
+.courses div:nth-child(6) > img {
+    top: 2050px;
+    @include breakpoint(tablet) {
+        top: 1310px;
+    }
+    @include breakpoint(desktop) {
+        top: 1230px;
+    }
+}
+
+.courses:last-child {
+    margin-bottom: 80px;
+}

@@ -1,0 +1,28 @@
+html * {
+    font-family: $primary-font;
+}
+ 
+body {
+    
+    padding: 16px 24px;
+    font-size: 16px;
+    color: $tittle-color;
+    background-color: $white2;
+    @include breakpoint(tablet) {
+        padding: 24px 40px;
+        background-image: url(../../img/hero-img-tablet.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 0%;
+    }
+    @include breakpoint(desktop) {
+        padding: 38px 180px;
+        background-image: url(../../img/hero-img-desktop.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 0%;
+    }
+}
+
