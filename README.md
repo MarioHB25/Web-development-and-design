@@ -13,6 +13,18 @@
 
 <p>This example of designing and developing the main part of a fully functional website contains the site's header and hero, as well as a navigation main menu and various buttons.</p>
 
+<p>Responsive design that adapts to different screen sizes: ⬛ ◼️ ◾</p> 
+
+<ul>
+   <li>Mobile (390px) 📱</li>
+   <li>Tablet (820px) 📱➕</li>
+   <li>Tablet horizontally (915px) 📱➕⤵️</li>
+   <li>Desktop (1200px) 💻</li>
+   <li>Extra large desk (1440px) 🖥️</li>
+</ul>
+
+
+
 <h2 align="center" style="color: #0366d6;">
    preview 📸
 </h2>
