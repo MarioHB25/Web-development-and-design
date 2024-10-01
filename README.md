@@ -20,7 +20,7 @@
    <li>Tablet (820px) 📱➕</li>
    <li>Tablet horizontally (915px) 📱➕⤵️</li>
    <li>Desktop (1200px) 💻</li>
-   <li>Extra large desk (1440px) 🖥️</li>
+   <li>Extra large desktop (2024px) 🖥️</li>
 </ul>
 
 
@@ -29,7 +29,45 @@
    preview 📸
 </h2>
 
-<img src="preview/Creative Company.png" alt="Banner"/>
+<h3 align="center" style="color: #0366d6;">
+   Mobile 📱
+</h3>
+
+<p align="center"><img src="preview/Elearning Land (mobile).png" alt="Banner"/></p>
+
+<hr>
+
+<h3 align="center" style="color: #0366d6;">
+   Tablet 📱➕
+</h3>
+
+<p align="center"><img src="preview/Elearning Land (Tablet).png" alt="Banner"/></p>
+
+<hr>
+
+<h3 align="center" style="color: #0366d6;">
+   Tablet horizontally 📱➕⤵️
+</h3>
+
+<p align="center"><img src="preview/Elearning Land (TH).png" alt="Banner"/></p>
+
+<hr>
+
+<h3 align="center" style="color: #0366d6;">
+   Desktop 💻
+</h3>
+
+<p align="center"><img src="preview/Elearning Land (Desktop).png" alt="Banner"/></p>
+
+<hr>
+
+<h3 align="center" style="color: #0366d6;">
+   Extra large sesktop 🖥️
+</h3>
+
+<p align="center"><img src="preview/Elearning Land (DesktopL).png" alt="Banner"/></p>
+
+<hr>
 
 <h2 align="center" style="color: #0366d6;">
    Visit the web site on ⬇️
